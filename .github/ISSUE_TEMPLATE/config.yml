@@ -1,32 +1,8 @@
-# Example Configuration File (config.yml)
-
-# Server Configuration
-server:
-  port: 8080
-  host: localhost
-  timeout: 3000
-
-# Database Configuration
-database:
-  type: MySQL
-  host: db.example.com
-  port: 3306
-  username: user
-  password: password123
-  dbname: mydatabase
-
-# Logging Configuration
-logging:
-  level: INFO
-  format: text
-  file: /var/log/myapp.log
-
-# Feature Flags
-features:
-  feature1: true
-  feature2: false
-
-# External API Configuration
-external_api:
-  endpoint: https://api.example.com
-  key: myapikey123
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Community Support
+    url: https://github.com/orgs/community/discussions
+    about: Please ask and answer questions here.
+  - name: GitHub Security Bug Bounty
+    url: https://bounty.github.com/
+    about: Please report security vulnerabilities here.
